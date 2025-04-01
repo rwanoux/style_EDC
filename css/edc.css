@@ -1,0 +1,228 @@
+@font-face
+{
+    font-family: "Archi";
+    src: url("../fonts/ArchitectsDaughter.ttf")
+}
+
+@font-face
+{
+    font-family: "brush";
+    src: url("../fonts/BrushtipTexe.ttf")
+}
+
+@font-face
+{
+    font-family: "Caba";
+    src: url("../fonts/Caballar.ttf")
+}
+
+@font-face
+{
+    font-family: "l5r";
+    src: url("../fonts/LogotypeL5r_old.ttf")
+}
+
+img#logo
+{
+    min-height: 100px !important;
+    height: unset;
+    width: 100px;
+    filter: drop-shadow(0px 0px 30px rgb(145, 0, 113))
+}
+
+figure#pause figcaption
+{
+    color: #000;
+    text-shadow: 0px 0px 20px #fff;
+    font-size: 36px;
+    font-weight: bold
+}
+
+figure#pause img
+{
+    opacity: 1;
+    content: url("../img/symbole_EdC.webp");
+    border: none
+}
+
+div.sheet.actor
+{
+    font-family: "archi"
+}
+
+div.sheet.actor .custom-system-label
+{
+    font-family: "brush"
+}
+
+div.sheet.actor form
+{
+    background: url(../img/cerisier.webp) -300px 0px no-repeat
+}
+
+div.sheet.actor form .profile-img-container
+{
+    border: none;
+    position: relative
+}
+
+div.sheet.actor form .profile-img-container img.profile-img
+{
+    filter: drop-shadow(0px 10px 20px black)
+}
+
+div.sheet.actor form .profile-img-container::after
+{
+    position: absolute;
+    content: "";
+    bottom: -50%;
+    min-width: 100%;
+    min-height: 3rem;
+    background: url(../img/logo_EdC.png) no-repeat;
+    background-size: contain
+}
+
+div.sheet.actor form input
+{
+    background-color: rgba(0, 0, 0, .055);
+    border: none
+}
+
+div.sheet.actor form input:hover,
+div.sheet.actor form input:focus,
+div.sheet.actor form input:active
+{
+    border-bottom: 1px solid #000;
+    box-shadow: none
+}
+
+div.sheet.actor form input[type=checkbox]
+{
+    appearance: none;
+    border: none;
+    opacity: 1;
+    color: rgba(0, 0, 0, 0);
+    accent-color: rgba(231, 1, 1, .582);
+    background-color: rgba(25, 80, 41, .438);
+    transform: scale(1) rotate(90deg);
+    border-radius: 50%;
+    transition: .3s
+}
+
+div.sheet.actor form input[type=checkbox]:checked
+{
+    background-color: rgba(167, 37, 37, .582);
+    transform: scale(1.3)
+}
+
+div.sheet.actor form input[type=checkbox]::before
+{
+    border: none;
+    content: "";
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    background: url(../img/symbole_EdC.webp) center no-repeat;
+    background-size: cover
+}
+
+div.sheet.actor table
+{
+    border: none;
+    background: url(../img/sep_vert.webp) no-repeat, url(../img/sep_vert.webp) no-repeat;
+    background-size: 18px 100%;
+    background-position: left, right
+}
+
+div.sheet.actor table table
+{
+    background: unset
+}
+
+div.sheet.actor .header-fields h1 input
+{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-align: right
+}
+
+div.sheet.actor .header-fields h1::after
+{
+    content: "";
+    display: block;
+    min-height: .5rem;
+    min-width: 30%;
+    background: url(../img/sep_hor.webp) center no-repeat;
+    background-size: 100% 100%
+}
+
+div.sheet.actor .custom-system-actor-content
+{
+    background-color: rgba(255, 255, 255, .623)
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-roll-icon
+{
+    color: #b95f6e;
+    transition: .2s
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-roll-icon:hover
+{
+    transform: scale(1.3) rotate(15deg)
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-roll-icon:hover::after
+{
+    text-shadow: 0px 0px 5px #642832
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-number-input-span,
+div.sheet.actor .custom-system-actor-content .custom-system-number-text-span
+{
+    font-family: "Caba";
+    width: 32px;
+    height: 32px;
+    min-width: 20px
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-number-input-span input,
+div.sheet.actor .custom-system-actor-content .custom-system-number-text-span input
+{
+    border: none;
+    width: 32px;
+    height: 32px;
+    background: url(../img/circle.webp) center no-repeat;
+    background-size: contain
+}
+
+div.sheet.actor .custom-system-actor-content .custom-system-number-input-span button,
+div.sheet.actor .custom-system-actor-content .custom-system-number-text-span button
+{
+    border: none !important;
+    box-shadow: 0px 0px 8px red;
+    background-color: #f1a1db !important
+}
+
+div.sheet.actor nav.sheet-tabs
+{
+    border: none;
+    font-size: x-large;
+    background: url(../img/sep_hor.webp) no-repeat, url(../img/sep_hor.webp) no-repeat;
+    background-size: 100% 1rem;
+    background-position: top, bottom;
+    padding: 1rem 0
+}
+
+div.sheet.actor nav.sheet-tabs span
+{
+    color: #979797;
+    transition: .3s
+}
+
+div.sheet.actor nav.sheet-tabs span a:hover,
+div.sheet.actor nav.sheet-tabs span a.active
+{
+    color: #000;
+    text-shadow: none
+}
