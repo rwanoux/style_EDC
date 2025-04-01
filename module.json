@@ -2,7 +2,7 @@
     "id": "style_EDC",
     "title": "style_EDC",
     "description": "empire des cerisiers style for csb ",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
     "compatibility": {
@@ -22,8 +22,8 @@
     "styles": [
         "css/edc.css"
     ],
-    "url": "https://github.com/rwanoux/HUID",
-    "manifest": "https://raw.githubusercontent.com/rwanoux/HUID/master/module.json",
-    "download": "https://github.com/rwanoux/HUID/archive/refs/heads/master.zip",
+    "url": "https://github.com/rwanoux/style_EDC",
+    "manifest": "https://raw.githubusercontent.com/rwanoux/style_EDC/refs/heads/main/module.json",
+    "download": "https://github.com/rwanoux/style_EDC/archive/refs/heads/main.zip",
     "media": []
 }
